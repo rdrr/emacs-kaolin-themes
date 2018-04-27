@@ -103,7 +103,27 @@
    (ivy-action              (:background nil :foreground spring-green1 :bold bold))
    (ivy-virtual             (:foreground amber3))
    (ivy-remote              (:foreground red1))
-   (ivy-confirm-face        (:background nil :foreground amber3)))
+   (ivy-confirm-face        (:background nil :foreground amber3))
+
+   ;; dired+
+   (diredp-file-name                          (:foreground white2))
+   (diredp-file-suffix                        (:foreground white4))
+   (diredp-compressed-file-suffix             (:foreground teal1))
+   (diredp-dir-name                           (:foreground teal1))
+   (diredp-dir-heading                        (:foreground teal4))
+   (diredp-symlink                            (:foreground orange1))
+   (diredp-date-time                          (:foreground aquamarine1))
+   (diredp-number                             (:foreground teal4))
+   (diredp-no-priv                            (:foreground spring-green4))
+   (diredp-other-priv                         (:foreground spring-green2))
+   (diredp-rare-priv                          (:foreground spring-green4))
+   (diredp-ignored-file-name                  (:foreground spring-green4))
+
+   (diredp-dir-priv                           (:foreground blue4  :background blue5))
+   (diredp-exec-priv                          (:foreground blue4  :background blue5))
+   (diredp-link-priv                          (:foreground ultramarine3  :background ultramarine1))
+   (diredp-read-priv                          (:foreground red1  :background red2))
+   (diredp-write-priv                         (:foreground ultramarine0 :background ultramarine5)))
 
   (when kaolin-git-gutter-solid
     (custom-theme-set-faces
